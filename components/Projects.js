@@ -1,6 +1,20 @@
 const Projects = () => {
   const projects = [
     {
+      name: "Maxpower",
+      lang: "ReactJS, CSS, SASS, JS, Node, MySQL",
+      desc: "Single Page with React.js for Maxpower Industrial Automation",
+      link: "https://www.maxpower-ar.com/",
+      img: "/img/maxpower.png",
+    },
+    {
+      name: "BrawlStats",
+      lang: "ReactJS, JS, CSS, Typescript, MongoDB, NodeJS, Express",
+      desc: "Web 'Wiki' Plataform for the game Brawlstars",
+      link: "http://brawlstats.com/",
+      img: "/img/brawlstats.svg",
+    },
+    {
       name: "Pokedex",
       lang: "HTML, CSS, JS",
       desc: "Use of Pokemon API to fetch data of different pokemon by searching by name.",
@@ -28,20 +42,6 @@ const Projects = () => {
        link: "https://barbers.vercel.app/",
        img: "/img/barbers.png",
      },
-    // {
-    //   name: "Illumi Media",
-    //   lang: "WooCommerce",
-    //   desc: "EC2-hosted eCommerce for Content Creators",
-    //   link: "https://illumimedia.co",
-    //   img: "/img/IllumiMedia.svg",
-    // },
-    // {
-    //   name: "PrettyRad Shirts",
-    //   lang: "Shopify",
-    //   desc: "eCommerce specialising in T-Shirt Designs",
-    //   link: "https://www.instagram.com/prettyradshirts/",
-    //   img: "/img/PrettyRadShirts.svg",
-    // },
   ];
 
   const getColour = (lang) => {
