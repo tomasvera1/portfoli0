@@ -10,10 +10,10 @@ export default function Home() {
       {/* <Image
         className="rounded-full animate-up"
         alt="Photo of Tomas Vera"
-        width="115px"
-        height="115px"
+        width="100px"
+        height="100px"
         src="/img/me.jpg"
-      /> */}
+      />  */}
       <h1 className="text-4xl font-semibold animate-up mt-3">
         Hi, I'm Tomas <Emoji symbol="👋" label="Wave" />
       </h1>
@@ -40,45 +40,119 @@ export default function Home() {
             More about me <ArrowRight size={16} className="inline-flex" />
           </button>
         </Link>
-      </div>
 
-      <div className="flex flex-col w-full lg:flex-row mt-4 space-y-2 lg:space-y-0 lg:space-x-3 animate-up delay-200">
         {/* My GitHub */}
         <a rel="noopener" href="https://github.com/tomasvera1" target="_blank">
-          <button className="bg-[#2E2E2E] transition w-full lg:w-auto hover:bg-[#1E1E1E] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+          <button className="bg-[#2E2E2E] transition w-full lg:w-auto hover:bg-[#1E1E1E] text-sm rounded-md px-3 py-3 lg:py-2.5 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <GitHub size={16} className="inline-flex" />
-              <span className="ml-2 inline-flex">Check my Github </span>
             </div>
           </button>
         </a>
 
         {/* My Linkedin */}
-        <a
-          rel="noopener"
-          href="https://www.linkedin.com/in/tomasvera12/"
-          target="_blank"
-        >
-          <button className="bg-[#006BA3] transition w-full lg:w-auto hover:bg-[#00476C] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+        <a rel="noopener" href="https://www.linkedin.com/in/tomasvera12/" target="_blank">
+          <button className="bg-[#006BA3] transition w-full lg:w-auto hover:bg-[#00476C] text-sm rounded-md px-3 py-3 lg:py-2.5 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <Linkedin size={16} className="inline-flex" />
-              <span className="ml-2 inline-flex">Connect on LinkedIn</span>
             </div>
           </button>
         </a>
 
         {/* My Dribbble */}
-        <button className="bg-[#7634A2] transition w-full lg:w-auto hover:bg-[#4E226C] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
-          <div className="inline-flex items-center justify-items-center align-middle">
-            <Dribbble size={16} className="inline-flex" />
-            <span className="ml-2 inline-flex">Check my Dribbble </span>
-          </div>
-        </button>
+        <a rel="noopener" href="https://www.linkedin.com/in/tomasvera12/" target="_blank">
+          <button className="bg-[#7634A2] transition w-full lg:w-auto hover:bg-[#4E226C] text-sm rounded-md px-3 py-3 lg:py-2.5 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Dribbble size={16} className="inline-flex" />
+            </div>
+          </button>
+        </a>
       </div>
 
       <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">
-        Tecnologies
-      </h2>
+          Skills
+      </h2> 
+
+      <div className="flex flex-col w-full lg:flex-row mt-4 space-y-2 lg:space-y-0 lg:space-x-3 animate-up delay-200">
+          <div className="bg-[#DD4B25] transition w-full lg:w-auto hover:bg-[#E96228] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="HTML5" width="20px" height="20px" src="/img/html5.svg"/> 
+              <span className="ml-2 inline-flex"> HTML5 </span>
+            </div>
+          </div>
+
+          <div className="bg-[#146EB0] transition w-full lg:w-auto hover:bg-[#31A4D5] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="CSS3" width="25px" height="25px" src="/img/css3.svg"/> 
+              <span className="ml-2 inline-flex"> CSS3 </span>
+            </div>
+          </div>
+
+          <div className="bg-[#CDB22E] transition w-full lg:w-auto hover:bg-[#F5D13A] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="Javascript" width="20px" height="20px" src="/img/javascript.svg"/> 
+              <span className="ml-2 inline-flex"> Javascript </span>
+            </div>
+          </div>
+
+          <div className="bg-[#24D3F3] transition w-full lg:w-auto hover:bg-[#5ED3F3] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="ReactJS" width="20px" height="20px" src="/img/react.svg"/> 
+              <span className="ml-2 inline-flex"> ReactJS </span>
+            </div>
+          </div>
+
+          <div className="bg-[#42403F] transition w-full lg:w-auto hover:bg-[#848484] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="NextJS" width="20px" height="20px" src="/img/nextjs.svg"/> 
+              <span className="ml-2 inline-flex"> NextJS </span>
+            </div>
+          </div> 
+
+          <div className="bg-[#3C823B] transition w-full lg:w-auto hover:bg-[#6FA660] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="NodeJS" width="20px" height="20px" src="/img/nodejs.svg"/> 
+              <span className="ml-2 inline-flex"> NodeJS </span>
+            </div>
+          </div>
+
+          <div className="bg-[#12924F] transition w-full lg:w-auto hover:bg-[#10AA50] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="MongoDB" width="20px" height="20px" src="/img/mongodb.svg"/> 
+              <span className="ml-2 inline-flex"> MongoDB </span>
+            </div>
+          </div>
+      </div>
+
+      <div className="flex flex-col w-full lg:flex-row mt-4 space-y-2 lg:space-y-0 lg:space-x-3 animate-up delay-200">     
+          <div className="bg-[#44A8B3] transition w-full lg:w-auto hover:bg-[#06B6D4] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="Tailwind CSS" width="20px" height="20px" src="/img/tailwind.svg"/> 
+              <span className="ml-2 inline-flex"> Tailwind CSS </span>
+            </div>
+          </div>
+
+          <div className="bg-[#5B4282] transition w-full lg:w-auto hover:bg-[#9181AB] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="Bootstrap" width="20px" height="20px" src="/img/bootstrap.svg"/> 
+              <span className="ml-2 inline-flex"> Boostrap </span>
+            </div>
+          </div> 
+
+          <div className="bg-[#42403F] transition w-full lg:w-auto hover:bg-[#848484] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="Material Design" width="20px" height="20px" src="/img/material-design.svg"/> 
+              <span className="ml-2 inline-flex"> Material Design </span>
+            </div>
+          </div> 
+
+          <div className="bg-[#E84E31] transition w-full lg:w-auto hover:bg-[#EF8975] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
+            <div className="inline-flex items-center justify-items-center align-middle">
+              <Image className="inline-flex" alt="Git" width="20px" height="20px" src="/img/git.svg"/> 
+              <span className="ml-2 inline-flex"> Git </span>
+            </div>
+          </div>
+      </div> 
 
       <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">
         Projects
