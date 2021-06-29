@@ -28,7 +28,7 @@ export default function Home() {
           Emprewebs
         </a>
         <br />
-        Performing a Fullstack bootcamp at{" "}
+        Performing a Fullstack bootcamp at
         <a href="https://nucba.com.ar">
           <b> NUCBA </b>
         </a>
@@ -60,7 +60,7 @@ export default function Home() {
         </a>
 
         {/* My Dribbble */}
-        <a rel="noopener" href="https://www.linkedin.com/in/tomasvera12/" target="_blank">
+        <a rel="noopener" href="https://www.behance.net/tomasvera3" target="_blank">
           <button className="bg-[#7634A2] transition w-full lg:w-auto hover:bg-[#4E226C] text-sm rounded-md px-3 py-3 lg:py-2.5 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <Dribbble size={16} className="inline-flex" />
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="bg-[#5B4282] transition w-full lg:w-auto hover:bg-[#9181AB] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <Image className="inline-flex" alt="Bootstrap" width="20px" height="20px" src="/img/bootstrap.svg"/> 
-              <span className="ml-2 inline-flex"> Boostrap </span>
+              <span className="ml-2 inline-flex"> Bootstrap </span>
             </div>
           </div> 
 
