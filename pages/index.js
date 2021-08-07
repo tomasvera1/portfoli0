@@ -18,17 +18,19 @@ export default function Home() {
         Hi, I'm Tomas <Emoji symbol="👋" label="Wave" />
       </h1>
       <p className="text-gray-500 dark:text-gray-400 mt-3 animate-up">
-        Frontend Developer & UX/UI Designer at &nbsp;
+        UX/UI Designer at &nbsp;
         <a
-          className="text-[#FFF] bg-[#6634F2] px-3 py-1,8 py-px rounded-md"
+          className="text-[#FFF] bg-[#F06132] px-3 py-1,8 py-px rounded-md"
           rel="noopener"
-          href="https://emprewebs.com"
+          href="https://www.encendercomunicacion.com/"
           target="_blank"
         >
-          Emprewebs
+          Encender Comunicacion
         </a>
         <br />
-        Performing a Fullstack bootcamp at
+        I'm Frontend Developer and UX/UI Designer. 
+        <br />
+        Performing a UX/UI Design bootcamp at
         <a href="https://nucba.com.ar">
           <b> NUCBA </b>
         </a>
@@ -60,7 +62,7 @@ export default function Home() {
         </a>
 
         {/* My Dribbble */}
-        <a rel="noopener" href="https://www.behance.net/tomasvera3" target="_blank">
+        <a rel="noopener" href="https://www.behance.net/tomasmvera" target="_blank">
           <button className="bg-[#7634A2] transition w-full lg:w-auto hover:bg-[#4E226C] text-sm rounded-md px-3 py-3 lg:py-2.5 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <Dribbble size={16} className="inline-flex" />
@@ -70,7 +72,7 @@ export default function Home() {
       </div>
 
       <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">
-          Skills
+          Skills <span className="text-sm mt-16 mb-3 text-gray-500 dark:text-gray-400"> (Frontend) </span>
       </h2> 
 
       <div className="flex flex-col w-full lg:flex-row mt-4 space-y-2 lg:space-y-0 lg:space-x-3 animate-up delay-200">
@@ -102,29 +104,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-[#42403F] transition w-full lg:w-auto hover:bg-[#848484] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
-            <div className="inline-flex items-center justify-items-center align-middle">
-              <Image className="inline-flex" alt="NextJS" width="20px" height="20px" src="/img/nextjs.svg"/> 
-              <span className="ml-2 inline-flex"> NextJS </span>
-            </div>
-          </div> 
-
-          <div className="bg-[#3C823B] transition w-full lg:w-auto hover:bg-[#6FA660] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
-            <div className="inline-flex items-center justify-items-center align-middle">
-              <Image className="inline-flex" alt="NodeJS" width="20px" height="20px" src="/img/nodejs.svg"/> 
-              <span className="ml-2 inline-flex"> NodeJS </span>
-            </div>
-          </div>
-
-          <div className="bg-[#12924F] transition w-full lg:w-auto hover:bg-[#10AA50] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
-            <div className="inline-flex items-center justify-items-center align-middle">
-              <Image className="inline-flex" alt="MongoDB" width="20px" height="20px" src="/img/mongodb.svg"/> 
-              <span className="ml-2 inline-flex"> MongoDB </span>
-            </div>
-          </div>
-      </div>
-
-      <div className="flex flex-col w-full lg:flex-row mt-4 space-y-2 lg:space-y-0 lg:space-x-3 animate-up delay-200">     
           <div className="bg-[#44A8B3] transition w-full lg:w-auto hover:bg-[#06B6D4] text-sm rounded-md px-3 py-3 lg:py-2 text-white">
             <div className="inline-flex items-center justify-items-center align-middle">
               <Image className="inline-flex" alt="Tailwind CSS" width="20px" height="20px" src="/img/tailwind.svg"/> 
@@ -152,10 +131,11 @@ export default function Home() {
               <span className="ml-2 inline-flex"> Git </span>
             </div>
           </div>
-      </div> 
+      </div>
+
 
       <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">
-        Projects
+        Projects <span className="text-sm mt-16 mb-3 text-gray-500 dark:text-gray-400"> (Development) </span>
       </h2>
 
       <Projects />
