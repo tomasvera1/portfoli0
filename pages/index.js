@@ -1,6 +1,7 @@
 import Emoji from "../components/Emoji";
 import Link from "next/link";
 import Projects from "../components/Projects";
+import ProjectsD from "../components/ProjectsD";
 import { Linkedin, GitHub, Dribbble, ArrowRight } from "react-feather";
 import Image from "next/image";
 
@@ -132,6 +133,12 @@ export default function Home() {
             </div>
           </div>
       </div>
+
+      <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">
+        Last projects on which I have worked <span className="text-sm mt-16 mb-3 text-gray-500 dark:text-gray-400"> (UX/UI Design) </span>
+      </h2>
+
+      <ProjectsD />
 
 
       <h2 className="text-xl mt-16 mb-3 text-gray-500 dark:text-gray-400">

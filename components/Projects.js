@@ -36,12 +36,26 @@ const Projects = () => {
       img: "/img/spicy.png",
     },
      {
-       name: "Barbers",
-       lang: "HTML, CSS, JS",
-       desc: "Single Page for leading barbershop in Argentina",
-       link: "https://barbers.vercel.app/",
-       img: "/img/barbers.png",
+       name: "",
+       lang: "",
+       desc: "",
+       link: "",
+       img: "",
      },
+     {
+      name: "Kia - Ourmovement",
+      lang: "HTML, CSS, JS",
+      desc: "Single page for KIA Argentina",
+      link: "https://kia-ourmovement.vercel.app/",
+      img: "/img/kia.svg",
+    },
+    {
+      name: "Barbers",
+      lang: "HTML, CSS, JS",
+      desc: "Single Page for leading barbershop in Argentina",
+      link: "https://barbers.vercel.app/",
+      img: "/img/barbers.png",
+    },
   ];
 
   const getColour = (lang) => {
@@ -62,7 +76,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='grid grid-flow-row md:grid-flow-col grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4'>
+    <div className='grid grid-flow-row md:grid-flow-col grid-cols-1 md:grid-cols-3 grid-rows-3 gap-5'>
       {projects.map((p) => {
         return (
           <a href={p.link} target='_blank' rel='noopener'>

@@ -12,9 +12,9 @@ function MyApp({ Component, pageProps }) {
         <Head>
           <meta
             name="description"
-            content="Tomas Vera is a Frontend Developer, Based in Buenos Aires, Argentina"
+            content="Tomas Vera is a UX/UI Designer and Frontend Developer, Based in Buenos Aires, Argentina"
           />
-          <title> Tomas Vera - Frontend Developer </title>
+          <title> Tomas Vera - UX/UI Designer & Frontend Developer </title>
         </Head>
         <NextNprogress
           color="#29D"
