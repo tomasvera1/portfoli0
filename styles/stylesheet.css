@@ -557,7 +557,9 @@ p ~ section {
     .nav{
         mix-blend-mode: normal;
     }
-
+    .hero-name {
+        margin-top: 60px;
+    }
 }
 
 /* RESPONSIVE BURGER MENU */
